@@ -12,7 +12,7 @@ export default function App() {
   useEffect(() => {
     const sr = scrollreveal({
       origin: "top",
-      distance: "100px",
+      distance: "80px",
       duration: 2000,
       reset: true,
     });
@@ -26,7 +26,7 @@ export default function App() {
         footer
         `,
       {
-        opacity: 1,
+        opacity: 0.8,
         interval: 300,
       }
     );
