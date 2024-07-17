@@ -34,13 +34,15 @@ export default function Services() {
   return (
     <Section id="services">
       {data.map((service, index) => {
-        <div key={index} className="service">
-          <div className="icon">
-            <img src={service.icon} alt="" />
+        return (
+          <div key={index} className="service">
+            <div className="icon">
+              <img src={service.icon} alt="" />
+            </div>
+            <h3>{service.title}</h3>
+            <p>{service.subTitle}</p>
           </div>
-          <h3>{service.title}</h3>
-          <p>{service.subTitle}</p>
-        </div>;
+        );
       })}
     </Section>
   );
