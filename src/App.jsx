@@ -26,7 +26,7 @@ export default function App() {
         footer
         `,
       {
-        opacity: 0,
+        opacity: 1,
         interval: 300,
       }
     );
