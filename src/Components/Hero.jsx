@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import homeImage from "../assets/hero.png";
+import styled from 'styled-components';
+import homeImage from '../assets/hero.png';
 export default function Hero() {
   return (
     <Section id="hero">
@@ -8,14 +8,14 @@ export default function Hero() {
       </div>
       <div className="content">
         <div className="title">
-          <h1>TRAVEL TO EXPLORE</h1>
+          <h1>TRAVEL CEYLON AND EXPLORE COLOMBO WITH US</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             natus, enim ipsam magnam odit deserunt itaque? Minima earum velit
             tenetur!
           </p>
         </div>
-        <div className="search">
+        {/* <div className="search">
           <div className="container">
             <label htmlFor="">Where you want to go</label>
             <input type="text" placeholder="Search Your location" />
@@ -29,7 +29,7 @@ export default function Hero() {
             <input type="date" />
           </div>
           <button>Explore Now</button>
-        </div>
+        </div> */}
       </div>
     </Section>
   );
@@ -91,7 +91,7 @@ const Section = styled.div`
           border: none;
           text-align: center;
           color: black;
-          &[type="date"] {
+          &[type='date'] {
             padding-left: 3rem;
           }
           &::placeholder {
@@ -142,7 +142,7 @@ const Section = styled.div`
         gap: 0.8rem;
         .container {
           padding: 0 0.8rem;
-          input[type="date"] {
+          input[type='date'] {
             padding-left: 1rem;
           }
         }
